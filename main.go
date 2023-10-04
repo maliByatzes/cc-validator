@@ -67,7 +67,6 @@ func getRoot(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	// Server
 	mux := http.NewServeMux()
 	mux.HandleFunc("/", getRoot)
 
